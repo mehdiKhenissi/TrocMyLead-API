@@ -1,0 +1,5 @@
+in production:
+
+- créer le fichier .htacces sous la racine du projet directement pour fixer le bonne focntionement des routes/url 
+- attention a ne pas créer des cross policy dans le htaccess ca peut bloquer l'appele des route dans les autres projets qui utiliseront comme  api ce projet
+- configurer la base de donneés du mode 'production' sous le fichier .env
